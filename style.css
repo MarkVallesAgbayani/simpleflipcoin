@@ -31,3 +31,10 @@ button{
     -o-border-radius: 10px;
     width: 300px;
 }
+.spin{
+    transform: translateX( 30px ) rotateY( 360deg );
+    -webkit-transform: translateX( 30px ) rotateY( 360deg );
+    -moz-transform: translateX( 30px ) rotateY( 360deg );
+    -ms-transform: translateX( 30px ) rotateY( 360deg );
+    -o-transform: translateX( 30px ) rotateY( 360deg );
+}
