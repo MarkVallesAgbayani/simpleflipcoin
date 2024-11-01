@@ -1,0 +1,33 @@
+body{
+    box-sizing: border-box;
+    background-color: #181C14;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3rem;
+    color: whitesmoke;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+}
+.flipcoin{
+    display: flex;
+    justify-content: center;
+}
+button{
+    border: none;
+    background-color: darkgreen;
+    color: white;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    width: 300px;
+}
